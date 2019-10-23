@@ -1,0 +1,152 @@
+.OurServicesLayout {
+  padding: 4%;
+  text-align: end;
+  background-color: transparent;
+  height: 100%;
+  display: flex;
+  padding: 0 0 0 2%;
+  flex-wrap: wrap;
+  list-style: none;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.OnMobileHide {
+  @media (min-width: 320px) and (max-width: 1024px) {
+    display: none;
+  }
+}
+.OnDesktopHide {
+  @media screen and (min-device-width: 1280px) and (min-device-height: 768px) and (orientation: landscape) {
+    display: none;
+  }
+}
+.SectionBgTitle {
+  width: 50%;
+  @media screen and (max-device-width: 768px) {
+    width: 100%;
+    order: 1;
+  }
+}
+.ServiceTitle {
+  line-height: 0.9;
+  text-align: end;
+  font-weight: 900;
+  padding: 3% 1% 6% 0%;
+  // font-size: x-large;
+}
+.SectionFlex {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  @media screen and (max-device-width: 768px) {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+.activeIcon {
+  position: relative;
+  bottom: 5px;
+  transition-delay: 0.2;
+}
+.SectionTitle {
+  text-align: start;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  font-size: 20pt;
+  padding: 0 1%;
+  height: 100%;
+}
+.SectionService {
+  margin-bottom: 1rem;
+  padding: 1%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  @media screen and (max-device-width: 768px) {
+    flex-direction: column;
+  }
+}
+.SectionDescription {
+  text-align: justify;
+  font-size: 8pt;
+  width: 50%;
+  font-weight: bolder;
+  margin: 0 !important;
+  line-height: 1;
+  @media screen and (max-width: 575px) {
+    width: 100%;
+  }
+}
+.w-65 {
+  width: 65% !important;
+}
+.search-bar {
+  border-radius: 10px;
+  border: 1px solid #1e1e1e;
+  text-align: end;
+  width: 60%;
+  padding-right: 2%;
+}
+.SectionImage {
+  padding: 3% 11% !important;
+}
+.SectionIcon {
+  width: 60px;
+}
+
+.SectionIcons {
+  display: flex;
+  width: 50%;
+  @media screen and (max-width: 575px) {
+    // display: block;
+    flex-direction: row;
+    flex-direction: row;
+    overflow: auto;
+    width: 100%;
+    order: -1;
+  }
+}
+
+.tenpt {
+  font-size: 7pt;
+  font-weight: bolder;
+}
+.Branding {
+  background-color: #8b0753;
+}
+.SocialMedia {
+  background-color: #ed2649;
+}
+.Advertising {
+  background-color: #f26e21;
+}
+.WebDesign {
+  background-color: #f19d23;
+}
+.GraphicDesign {
+  background-color: #ffc10d;
+}
+.Copywriting {
+  background-color: #91af14;
+}
+
+//Fonts
+.Branding-font {
+  color: #8b0753;
+}
+.SocialMedia-font {
+  color: #ed2649;
+}
+.Advertising-font {
+  color: #f26e21;
+}
+.WebDesign-font {
+  color: #f19d23;
+}
+.GraphicDesign-font {
+  color: #ffc10d;
+}
+.Copywriting-font {
+  color: #91af14;
+}
